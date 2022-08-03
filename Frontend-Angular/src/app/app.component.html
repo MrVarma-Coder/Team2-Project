@@ -1,0 +1,18 @@
+
+<!-- Toolbar -->
+<div class="header" *ngIf="displaymenu" >
+ <a routerLink="home" class="menulink">HomePage</a>
+ <a routerLink="searchdrug" class="menulink"> Search By Name </a>
+ <a routerLink="searchdrugid" class="menulink"> Search By Id </a>
+ <a routerLink="subscribe" class="menulink"> Subscribe </a>
+ <a routerLink="refillstatus" class="menulink"> Refill Status </a>
+ <a routerLink="refilldues" class="menulink"> Refill Dues </a>
+ <a routerLink="view" class="menulink"> View Drugs </a>
+<a routerLink="login" style="margin-right: 12px;float: right;" (click)="logoff()" class="menulink">Logout</a>
+</div>
+<br>
+<div class="container-fluid">
+<div class="card-box">
+<router-outlet></router-outlet>
+</div>
+</div>

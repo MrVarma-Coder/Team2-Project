@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    background-color: #F4ABAA;
+    height: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 57px;
+    
+    font-size: larger;
+    font-family: sans-serif;
+}
+element.style {
+    margin-right: 50px;
+    float: right;
+    margin-top: -14px;
+    font-size: larger;
+    font-family: sans-serif;
+}
